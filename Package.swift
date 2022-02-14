@@ -4,10 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "MyFramework",
-    platforms: [
-        .iOS(.v12)
-    ],
+    name: "PingOneSDK",
     products: [
         .library(
             name: "PingOneSDK", 
