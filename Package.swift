@@ -11,10 +11,6 @@ let package = Package(
             name: "PingOnePackage",
             targets: ["PingOnePackage"]),
     ],
-    dependencies: [
-        // Dependencies declare other packages that this package depends on.
-        // .package(url: /* package url */, from: "1.0.0"),
-    ],
     targets: [
             .binaryTarget(name: "PingOnePackage",
                           url: "https://github.com/amitnadirping/SPM/blob/main/PingOneSDK.xcframework.1.7.0.zip",
