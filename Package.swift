@@ -4,17 +4,23 @@
 import PackageDescription
 
 let package = Package(
-    name: "PingOnePackage",
-    products: [
-        // Products define the executables and libraries a package produces, and make them visible to other packages.
-        .library(
-            name: "PingOnePackage",
-            targets: ["PingOnePackage"]),
+    name: "PingOneSDK",
+    platforms: [
+        .iOS(.v12),
     ],
+    products: [
+        .library(
+            name: "PingOneSDK",
+            targets: ["PingOneSDK"]
+        ),
+    ],
+    dependencies: [],
     targets: [
-            .binaryTarget(name: "PingOnePackage",
-                          url: "https://github.com/amitnadirping/SPM/blob/main/PingOneSDK.xcframework.1.7.0.zip",
-                          checksum: "f330e9eb228f373f65f7040936af2db8293dc2908416f201daa80e3187cdf526"),   
+        .binaryTarget(
+            name: "PingOneSDK",
+            url: "https://github.com/amitnadirping/SPM/blob/main/PingOneSDK.xcframework.1.7.0.zip",
+            checksum: "f330e9eb228f373f65f7040936af2db8293dc2908416f201daa80e3187cdf526"
+        ),
     ]
 )
 
