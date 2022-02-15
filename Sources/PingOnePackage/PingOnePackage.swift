@@ -1,5 +1,5 @@
 public struct PingOnePackage {
-    public private(set) var text = "Hello, World!"
+    public private(set) var text = "test"
 
     public init() {
     }
