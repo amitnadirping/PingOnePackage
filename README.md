@@ -22,5 +22,5 @@ Add a package by selecting `File` → `Add Packages…` in Xcode’s menu bar.
 
 Search for the PingOneSDKPackage using the repo's URL:
 ```console
-https://github.com/<TBD>.git
+https://github.com/amitnadirping/PingOneSDKPackage
 ```
