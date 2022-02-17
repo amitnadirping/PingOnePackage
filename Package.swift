@@ -18,7 +18,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "PingOneSDK",
-            url: "https://github.com/amitnadirping/PingOnePackage/raw/main/PingOneSDK.xcframework.1.7.0.zip",
+            url: "https://github.com/amitnadirping/PingOnePackage/releases/download/1.7.0/PingOneSDK.xcframework.1.7.0.zip",
             checksum: "31027f06a454de400cd63e338e81edae305d6e5edb0f60a342799d6877a1787d"
         ),
     ]
