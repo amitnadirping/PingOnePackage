@@ -10,7 +10,7 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "PingOneSDK",
+            name: "PingOnePackage",
             targets: ["PingOneSDK"]
         ),
     ],
