@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "PingOneSDK",
+    name: "PingOnePackage",
     platforms: [
         .iOS(.v12),
     ],
