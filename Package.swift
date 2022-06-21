@@ -16,7 +16,7 @@ let package = Package(
         .binaryTarget(
             name: "PingOneSDK", 
             path: "https://github.com/amitnadirping/PingOnePackage/releases/download/v1.7.1/PingOneSDK.xcframework.1.7.1.zip",
-            checksum: "328f32e567731e3ea45119c4f0d2b8138b127468a24fe22b7513480e0411e086")
+            checksum: "de027118b5096812289455d7efd7075c05db7e0839f97f9dc68daa8d5824489f")
         )
     ]
 )
