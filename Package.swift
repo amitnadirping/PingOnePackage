@@ -5,14 +5,11 @@ import PackageDescription
 
 let package = Package(
     name: "PingOneSDK",
-    platforms: [
-        .iOS(.v12),
-    ],
     products: [
         .library(
             name: "PingOneSDK",
             targets: ["PingOneSDK"]
-        ),
+        )
     ],
     dependencies: [],
     targets: [
