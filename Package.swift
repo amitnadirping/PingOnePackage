@@ -15,6 +15,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "PingOneSDK",
-            dependencies:[]),
+            path: "PingOneSDK.xcframework"
+        )
     ]
 )
