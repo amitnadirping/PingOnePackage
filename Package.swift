@@ -11,9 +11,7 @@ let package = Package(
             targets: ["PingOneSDK"]
         )
     ],
-    dependencies: [ 
-        .package(url: "git@github.com:amitnadirping/PingOnePackage.git")
-                ],
+    dependencies: [],
     targets: [
          .binaryTarget(
              name: "PingOneSDK",
