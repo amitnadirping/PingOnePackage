@@ -12,6 +12,10 @@ let package = Package(
         )
     ],
     dependencies: [],
+    
+    dependencies: [
+        .package(url: "git@github.com:amitnadirping/PingOnePackage.git", .branch("master"))     
+    ],
     targets: [
          .binaryTarget(
              name: "PingOneSDK",
