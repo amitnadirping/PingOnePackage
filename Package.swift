@@ -13,13 +13,11 @@ let package = Package(
     ],
     dependencies: [],
     
-    dependencies: [
-        .package(url: "git@github.com:amitnadirping/PingOnePackage.git", .branch("master"))     
-    ],
+    dependencies: [],
     targets: [
          .binaryTarget(
              name: "PingOneSDK",
-             url: "https://assets-test.pingone.com/pingonemobile/ios-sdk/1.7.1/PingOneSDK.xcframework.zip",
-             checksum: "73b819f860d79e590dd97c254312fa517697644b3dd9a714ad85c38331c49478"),
+             url: "https://assets-test.pingone.com/pingonemobile/ios-sdk/alpha/PingOneSDK.xcframework.1.7.2.zip",
+             checksum: "eb8b481b1c9af4849f2f97fae2d61494c904cceb8813ff717a45c32f17b139ba"),
     ]
 )
